@@ -63,6 +63,7 @@ body {
 .socials_icon {
   width: 65px;
   height: 65px;
+  fill: #F4DB67;
 }
 
 @media screen and (max-width: 813px) and (orientation: landscape) {
@@ -93,6 +94,11 @@ body {
     font-size: 6rem;
   }
 
+  .header_text:hover {
+    color: gray;
+    text-shadow: -5px 1px 1px #F4DB67;
+  }
+
   .container {
     min-height: 73vh;
     background-size: contain;
@@ -109,5 +115,9 @@ body {
   .socials_icon {
     width: 60px;
     height: 60px;
+  }
+
+  .socials_icon:hover {
+    fill: gray;
   }
 }
