@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  min-height: 12vh;
+  height: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .header_text {
-  font-family:  'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   font-weight: 900;
   color: #F4DB67;
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  min-height: 75vh;
+  height: 75vh;
   background-color: black;
   background-image: url("./images/image21.png");
   background-size: cover;
@@ -39,7 +39,7 @@ body {
 }
 
 .inside_container {
-  min-height: 75vh;
+  height: 75vh;
   background-image: url("./images/UNDERCONSTRUCTION.png");
   background-size: contain;
   background-repeat: repeat;
@@ -47,7 +47,7 @@ body {
 }
 
 .socials_list {
-  min-height: 12vh;
+  height: 12vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -67,18 +67,14 @@ body {
 }
 
 @media screen and (max-width: 813px) and (orientation: landscape) {
-  .header_text {
-    font-size: 3rem;
-  }
-
   .container {
-    min-height: 70vh;
+    height: 70vh;
     background-size: contain;
     background-repeat: repeat;
   }
 
   .inside_container {
-    min-height: 70vh;
+    height: 70vh;
     background-repeat: repeat;
   }
 
@@ -100,21 +96,16 @@ body {
   }
 
   .container {
-    min-height: 73vh;
+    height: 75vh;
     background-size: contain;
     background-repeat: repeat;
   }
 
   .inside_container {
-    min-height: 73vh;
+    height: 73vh;
     background-image: url("./images/UNDERCONSTRUCTION_UNCUT.png");
     background-size: contain;
     background-repeat: repeat;
-  }
-
-  .socials_icon {
-    width: 60px;
-    height: 60px;
   }
 
   .socials_icon:hover {
