@@ -138,10 +138,6 @@ body {
     background-image: url("./images/UNDERCONSTRUCTION_UNCUT_REVERSE.png");
   }
 
-  /* .inside_container:hover {
-    background-image: url("./images/UNDERCONSTRUCTION_REVERSE.png");
-  } */
-
   .socials_icon:hover {
     fill: gray;
   }
