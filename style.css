@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  min-height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_link {
+  text-decoration: none;
+}
+
+.header_text {
+  font-family:  'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #F4DB67;
+  text-transform: uppercase;
+  text-shadow: -5px 1px 1px gray;
+  text-align: center;
+}
+
+.container {
+  min-height: 75vh;
+  background-color: black;
+  background-image: url("/images/image21.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.inside_container {
+  min-height: 75vh;
+  background-image: url("/images/UNDERCONSTRUCTION.png");
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+.socials_list {
+  min-height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials_item {
+  align-self: center;
+  list-style: none;
+  align-self: center;
+  justify-self: center;
+}
+
+.socials_icon {
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (max-width: 813px) and (orientation: landscape) {
+  .header_text {
+    font-size: 3rem;
+  }
+
+  .container {
+    min-height: 70vh;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .inside_container {
+    min-height: 70vh;
+    background-repeat: repeat;
+  }
+
+  .socials_icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+@media screen and (min-width: 814px) {
+  .header_text {
+    font-size: 6rem;
+  }
+
+  .container {
+    min-height: 73vh;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .inside_container {
+    min-height: 73vh;
+    background-image: url("/images/UNDERCONSTRUCTION_UNCUT.png");
+    background-size: contain;
+    background-repeat: repeat;
+  }
+
+  .socials_icon {
+    width: 60px;
+    height: 60px;
+  }
+}
