@@ -67,6 +67,11 @@ body {
 }
 
 @media screen and (max-width: 926px) and (orientation: landscape) {
+  .header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
   .header_text {
     font-size: 3rem;
   }
@@ -80,6 +85,10 @@ body {
   .inside_container {
     height: 65vh;
     background-repeat: repeat;
+  }
+
+  .socials_list {
+    margin-top: 10px;
   }
 
   .socials_icon {
