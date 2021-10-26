@@ -34,7 +34,7 @@ body {
   background-color: black;
   background-image: url("./images/image21.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center center;
 }
 
@@ -66,15 +66,19 @@ body {
   fill: #F4DB67;
 }
 
-@media screen and (max-width: 813px) and (orientation: landscape) {
+@media screen and (max-width: 926px) and (orientation: landscape) {
+  .header_text {
+    font-size: 4rem;
+  }
+
   .container {
-    height: 70vh;
+    height: 65vh;
     background-size: contain;
     background-repeat: repeat;
   }
 
   .inside_container {
-    height: 70vh;
+    height: 65vh;
     background-repeat: repeat;
   }
 
@@ -84,11 +88,21 @@ body {
   }
 }
 
+@media screen and (max-width: 428px) {
+  .header_text {
+    font-size: 5rem;
+  }
+
+  .container {
+    background-repeat: no-repeat;
+  }
+}
+
 
 @media screen and (min-width: 814px) {
-  /* .header_text {
+  .header_text {
     font-size: 6rem;
-  } */
+  }
 
   .header_text:hover {
     color: gray;
