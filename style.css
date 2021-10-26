@@ -94,8 +94,12 @@ body {
   }
 
   .container {
-    height: 65vh;
+    height: 70vh;
     background-repeat: no-repeat;
+  }
+
+  .inside_container {
+    height: 70vh;
   }
 }
 
