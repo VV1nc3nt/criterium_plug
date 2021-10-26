@@ -103,13 +103,13 @@ body {
   }
 
   .container {
-    min-height: 65vh;
+    min-height: 55vh;
     max-height: 75vh;
     background-repeat: no-repeat;
   }
 
   .inside_container {
-    min-height: 65vh;
+    min-height: 55vh;
     max-height: 75vh;
   }
 }
