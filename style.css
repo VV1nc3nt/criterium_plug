@@ -68,7 +68,7 @@ body {
 
 @media screen and (max-width: 926px) and (orientation: landscape) {
   .header_text {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .container {
@@ -83,8 +83,8 @@ body {
   }
 
   .socials_icon {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -94,12 +94,12 @@ body {
   }
 
   .container {
-    height: 70vh;
+    height: 75vh;
     background-repeat: no-repeat;
   }
 
   .inside_container {
-    height: 70vh;
+    height: 75vh;
   }
 }
 
