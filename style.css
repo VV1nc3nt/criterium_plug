@@ -32,7 +32,7 @@ body {
 .container {
   min-height: 75vh;
   background-color: black;
-  background-image: url("/images/image21.png");
+  background-image: url("image21.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -40,7 +40,7 @@ body {
 
 .inside_container {
   min-height: 75vh;
-  background-image: url("/images/UNDERCONSTRUCTION.png");
+  background-image: url("UNDERCONSTRUCTION.png");
   background-size: contain;
   background-repeat: repeat;
   background-position: center center;
@@ -101,7 +101,7 @@ body {
 
   .inside_container {
     min-height: 73vh;
-    background-image: url("/images/UNDERCONSTRUCTION_UNCUT.png");
+    background-image: url("UNDERCONSTRUCTION_UNCUT.png");
     background-size: contain;
     background-repeat: repeat;
   }
