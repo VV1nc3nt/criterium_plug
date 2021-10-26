@@ -101,10 +101,6 @@ body {
 
 
 @media screen and (min-width: 814px) {
-  .header_text {
-    font-size: 6rem;
-  }
-
   .header_text:hover {
     color: gray;
     text-shadow: -5px 1px 1px #F4DB67;
